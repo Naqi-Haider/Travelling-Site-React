@@ -53,7 +53,7 @@ const Contact = () => {
                 <h2 className="text-gray md-heading">Call</h2>
                 <p>+910101010101</p>
               </div>
-              <img src="/src/img/company-img.jpg" alt="Company" />
+              <img src="/img/company-img.jpg" alt="Company" />
             </div>
             <form onSubmit={handleSubmit} className="form">
               <h1 className="lg-heading text-black">Contact Us</h1>
