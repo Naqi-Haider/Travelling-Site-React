@@ -1,0 +1,10 @@
+@import url('../styling/nav-bar.css');
+@import url('../styling/header.css');
+@import url('../styling/card.css');
+@import url('../styling/features.css');
+@import url('../styling/footer.css');
+
+/* Additional Home page specific styles */
+.home-page {
+    background: #f9f9f9;
+}

@@ -1,0 +1,46 @@
+/* ###################### HEADER STYLING ##########################  */
+.header {
+    position: relative;
+    height: 95vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('../img/header-image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* #################### HEADER CONTENT STYLING #######################  */
+.header-content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
+
+.header-content h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-content p {
+    text-transform: uppercase;
+}
+
+.header-content .btn {
+    display: inline-block;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+    .header-content .main-heading {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+    .header {
+        height: 90vmax;
+    }
+}

@@ -1,0 +1,32 @@
+/* ############# FOOTER STYLING #########################  */
+.footer {
+    background: #263238;
+    color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 1.5rem;
+}
+
+.social-media-links {
+    margin-bottom: 1rem;
+}
+
+.social-media-links i {
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.social-media-links i:hover {
+    color: #e63946;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 500px) {
+    .social-media-links i {
+        margin: 0.5rem;
+    }
+}

@@ -1,0 +1,67 @@
+/* ###################### NAVBAR STYLING ##########################  */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    z-index: 10;
+    margin-bottom: 15px;
+}
+
+.navbar .logo {
+    float: left;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    margin-top: 15px;
+}
+
+.navbar .nav-items {
+    float: right;
+    margin-top: 15px;
+}
+
+.navbar .nav-item {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+}
+
+.navbar a:link,
+.navbar a:visited {
+    color: #f4f4f4;
+}
+
+.navbar a {
+    padding-bottom: 0.3rem;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+.navbar::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.navbar.bg-dark {
+    background-color: #263238;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+    .navbar .nav-items,
+    .navbar .logo {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}

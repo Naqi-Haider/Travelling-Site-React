@@ -1,0 +1,64 @@
+/* ##################### FEATURES SECTION STYLING ###########################  */
+.features {
+    padding: 10rem 0;
+}
+
+.box-wrapper {
+    box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+}
+
+.box {
+    width: 33.3333333%;
+    float: left;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box-1,
+.box-3 {
+    background-color: #263238;
+    color: #fff;
+}
+
+.box-2 {
+    background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+    color: #fff;
+}
+
+.box i {
+    margin-bottom: 1rem;
+}
+
+.box h2 {
+    margin-bottom: 1rem;
+}
+
+.box p {
+    color: inherit;
+}
+
+.box-wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .features .box {
+        float: none;
+        width: 100%;
+        text-align: center;
+        box-shadow: 5px 5px 10px rgba(102, 102, 102, 0.521);
+        margin-bottom: 2rem;
+    }
+
+    .features .box-2,
+    .features .box-3 {
+        margin-top: 0;
+    }
+
+    .box-wrapper {
+        box-shadow: none;
+    }
+}
